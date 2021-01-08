@@ -6,6 +6,7 @@
 
 ## 숙제 다운로드 방법
 1. 아래링크를 클릭하여 숙제 github repository를 복사함
+   - [https://classroom.github.com/a/wYqGmNUr](https://classroom.github.com/a/wYqGmNUr)
 2. 아래 코드를 사용하여 숙제 코드 github repository를 자신의 컴퓨터로 클론함
     ```
     git clone <레포지토리 URL>
