@@ -54,7 +54,7 @@ class TestTextProcessing(unittest.TestCase):
 
         test_str = "alreadyCamel"
         pred = tp.to_camel_case(test_str)
-        self.assertEqual(pred, "alreadycamel")
+        self.assertEqual(pred, "alreadyCamel")
 
         test_str = "_______"
         pred = tp.to_camel_case(test_str)

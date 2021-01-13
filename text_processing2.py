@@ -56,10 +56,13 @@ def to_camel_case(underscore_str):
             >>> import text_processing2 as tp2
             >>> underscore_str1 = "to_camel_case"
             >>> tp2.to_camel_case(underscore_str1)
-            'toCamelCase'
+            "toCamelCase"
             >>> underscore_str2 = "__EXAMPLE__NAME__"
             >>> tp2.to_camel_case(underscore_str2)
-            'exampleName'
+            "exampleName"
+            >>> underscore_str3 = "alreadyCamel"
+            >>> tp2.to_camel_case(underscore_str3)
+            "alreadyCamel"
     """
     camelcase_str = None
     return camelcase_str
